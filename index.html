@@ -1,42 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JS Typing Speed Test</title>
-    <script src="script.js" async></script>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
-    <link rel="stylesheet" href="style.css">
-</head>
-
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"></head>
 <body>
-    <header class="masthead">
-        <h1>Test Your Typing Speed</h1>
-    </header>
-    <main class="main">
-        <article class="intro">
-            <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
-        </article><!-- .intro -->
-        <section class="test-area">
-            <div id="origin-text">
-                <p>This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
-            </div><!-- #origin-text -->
-
-            <div class="test-wrapper">
-                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
-            </div><!-- .test-wrapper -->
-
-            <div class="meta">
-                <section id="clock">
-                    <div class="timer">00:00:00</div>
-                </section>
-
-                <button id="reset">Start over</button>
-            </div><!-- .meta -->
-        </section><!-- .test-area -->
-    </main>
-
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Web Development for Beginners: A Curriculum',
+      repo: 'https://github.com/microsoft/Web-Dev-For-Beginners'
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
-
 </html>
